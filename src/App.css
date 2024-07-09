@@ -6,7 +6,12 @@ body {
   justify-content: center;
   align-items: center;
 }
-
+.title {
+  color: white;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
 form {
   max-width: 500px;
   margin: 0 auto;
