@@ -7,6 +7,7 @@ function App() {
     handleSubmit,
     formState: { errors },
   } = useForm();
+  //기능 구현시 api 호출 로직등을 함수로 구현해서 handleSubmit의 인자로 전달
   const onSubmit = (data) => console.log(data);
   return (
     <div>
